@@ -1,6 +1,6 @@
 1. Kirill Potapov
 2. [My email](kirillpotapovnow@gmail.com)
-3. *I am extremely interested in finding a job. I am a quick learner, extremely sociable and responsible.*
+3. *I am extremely interested in finding a job. I am a quick learner, responsible and extremely sociable.*
 4. I am currently studying **HTML**, **CSS**, and **JavaScript**. A little knowledge of **C++** and **Java**.
 5. 
 ```
@@ -16,5 +16,5 @@ function fizzbuzz(n){
 }
 ```
 6. 
-7. Secondary education. Now I am getting a higher education
+7. Secondary education. Now I am getting a higher education.
 8. The current level of English is A2-A2+.
