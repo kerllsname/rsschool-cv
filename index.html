@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Kirill Potapov</h1>
+      </header>
+      <hr />
+      <div class="photo-contacts">
+        <div class="photo">
+          <img src="images/me.jpg" alt="me" />
+        </div>
+        <div class="contacts">
+          <ul>
+            <li class="tg">@torokoto</li>
+            <li class="ds">Kerll (@kerllsname)</li>
+            <li class="email">kirillpotapovnow@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="content">
+        <main class="all-information">
+          <section class="about-me">
+            <h2>About me</h2>
+            I am a quick learner, responsible and extremely sociable.
+          </section>
+          <hr />
+
+          <section class="code-example">
+            <h2>Code example</h2>
+            <pre>
+                <code class="language-javascript">
+                    function fizzbuzz(n){
+                    let arr = [];
+                    for(let i = 1; i &lt;= n; i++){
+                        if(i % 15 == 0) arr.push('FizzBuzz');
+                        else if(i % 5 == 0) arr.push('Buzz');
+                        else if(i % 3 == 0) arr.push('Fizz');
+                        else arr.push(i);
+                        };
+                    return arr;
+                    };
+                </code>
+            </pre>
+          </section>
+        </main>
+        <aside>
+          <h2>Skills</h2>
+          <div class="English">
+            <h3>English</h3>
+            Level of knowledge: A2
+          </div>
+          <div class="Education">
+            <h3>Education</h3>
+            <mark>BSU</mark><br />
+            Faculty of Radiophysics and Computer Technology (2017 - 2022)
+          </div>
+          <div class="Languages">
+              <h3>Languages</h3>
+            <ul>
+              <li>HTML, CSS, JS</li>
+              <li>C++</li>
+              <li>Java</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>
