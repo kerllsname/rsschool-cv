@@ -31,7 +31,8 @@ but in the future I would like to become a Frontend Developer.
 
 ## Code example
 
-`function nthFibo(n) {
+```javascript
+function nthFibo(n) {
   let fiboArr = [0, 1];
   
   if(n > 2) {
@@ -41,7 +42,8 @@ but in the future I would like to become a Frontend Developer.
   }
   
   return fiboArr[n - 1];
-}`
+}
+```
 
 ---
 
